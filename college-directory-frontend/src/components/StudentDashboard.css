@@ -1,0 +1,84 @@
+/* src/components/StudentDashboard.css */
+.dashboard-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .dashboard-header h1 {
+    margin: 0;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .dashboard-content section {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .dashboard-content section h2 {
+    margin-top: 0;
+  }
+  
+  .student-info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .student-info img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .student-info div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .student-info h2 {
+    margin: 0;
+  }
+  
+  .student-info p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .courses-list,
+  .grades-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .courses-list li,
+  .grades-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .courses-list li:last-child,
+  .grades-list li:last-child {
+    border-bottom: none;
+  }
+  
